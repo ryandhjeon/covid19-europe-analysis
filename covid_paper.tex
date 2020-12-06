@@ -1,0 +1,114 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Europe's Language Families}\\
+
+\author{\IEEEauthorblockN{Justin Peter}
+\IEEEauthorblockA{\textit{Data Science} \\
+\textit{Bowling Green State University}\\
+Ohio, USA \\
+jgpeter@bgsu.edu}
+\and
+\IEEEauthorblockN{Donghyun Jeon}
+\IEEEauthorblockA{\textit{Data Science} \\
+\textit{Bowling Green State University}\\
+Ohio, USA \\
+djeon@bgsu.edu}
+\and
+\IEEEauthorblockN{Daniel Felbah}
+\IEEEauthorblockA{\textit{Data Science} \\
+\textit{Bowling Green State University}\\
+Ohio, USA \\
+dfelbah@bgsu.edu}
+}
+
+\maketitle
+
+\begin{abstract}
+The purpose of this project is to showcase the different cluster categories we made in Europe and then make another model to classify which cluster stands out. This could be based on the number of cases, deaths, tests, etc. 
+\end{abstract}
+
+\begin{IEEEkeywords}
+time series, clustering, classification, python, allnighters
+\end{IEEEkeywords}
+
+\section{Introduction}
+Back in the hackathon, we presented our analysis based on continents. However, due to the immense amount of data that we have, we decided that it would be best to work on all countries in one continent. The media tends to talk more about the covid cases that would occur in Europe. 
+
+\section{Background}
+So our dataset is very huge and it updates based on the date. So for every date in the data, we will see the total number of cases, deaths, tests, and many more columns for each country. Apart from that, we have more than 40 columns in the data and we ended up selecting certain columns for feature selection that would assist us in the clustering aspects. Other columns were easily used and manipulated for visualization purposes. For more information, see the link below. 
+
+\section{Methodology}
+
+\subsection{Data Processing}
+
+In almost every dataset, you are going to see missing data. It would be so easy to replace data with a random number, but with covid cases, not so much. So we decided to define a function that would take the data and implement the simple imputer to replace the numbers.  
+
+\subsection{Data Manipulation}
+
+When manipulating the data, we adjusted one column that displayed the exact month, day and year. 
+
+\subsection{Algorithms}
+
+For algorithms, we used KMeans clustering at first, but unfortunately it falied. Please see part B in the results section. We eventually formed our own algorithm by forming our own clusters. We did this in three different manners. The first way was by language families, so for example, Poland, Russia, and Ukraine speak slavic languages that are located in the North. Similarly, we did the same for germanic and romance languages. The second way was dividing the location of each country by region so quite literally, the countries are clustered. The third way was through a travel competiveness index that you can find below.
+
+\subsection{Modifications}
+
+From here, we made a new dataframe that represents different types of clusters but the number of categories we would have is 4. 
+
+\section{Results}
+
+\subsection{Regression Models}
+
+We ran some regression models that would display the value behind each column and the impact it would bring. 
+
+\subsection{Struggles with clustering and regression}
+
+When doing KMeans clustering, we performed PCA preprocessing and used a couple functions to separate the values based on cluster. The only issue was the output we received. It turns out that every time we run the cluster centers, the values change, so this would be unreliable. 
+
+\subsection{Classification report}
+
+\subsection{Prediction with TSLearn}
+
+\subsection{Analysis of TSLearn}
+
+\section{Conclusion}
+
+\subsection{Summary}
+
+Throughout the paper, we displayed a background of where we obtained the data, why we decided to use the data, what information the data consists of, and the manipulation we made on the data before performing analysis. 
+
+Apart from our visualizations, we made KMeans clustering and time series clustering models that displayed different results but we were able to establish a connection among which cluster would stand out. 
+
+\subsection{Potential}
+
+There is huge potential with this data in terms of other questions we can address such as:
+\begin{itemize}
+\item Which country will reach 5 million cases first?
+\item Which country will be the first to have 1 million deaths?
+\item Which country will reach at least 5 million tests first?
+\item Do language families or branches have anything to do with Covid cases?
+\end{itemize}
+As you can see, most of these questions are based on classification. From our data and our work, you can see that regression algorithms are not that effective when a majority of the data is referring to various countries and continents along with their statistics.
+
+\begin{thebibliography}{00}
+\bibitem{b1} Max Roser and Esteban Ortiz-Ospina (2019) – “Global Rise of Education”. Published online at OurWorldInData.org. Retrieved from: ‘https://ourworldindata.org/global-rise-of-education’ [Online Resource]
+\bibitem{b2} Hasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020). 'https://doi.org/10.1038/s41597-020-00688-8' [Online Resource]
+\bibitem{b3} Edouard Matheiu - owid-covid-codebook.csv(2020). 'https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-codebook.csv' [Columns].
+\bibitem{b4} World Economic Forum- Travel Competiveness Index by Year 'https://www.weforum.org/reports' [Countries and Values].
+\end{thebibliography}
+\vspace{12pt}
+\color{red}
+
+
+\end{document}
