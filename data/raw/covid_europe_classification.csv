@@ -1,0 +1,41 @@
+location,region,family_tree,tourism,region_label,family_tree_label,tourism_label,quality_of_life,quality_of_life_label,health_care,health_care_label,health_care_value
+Albania,3,4,4,South,Other,3.2 - 3.7,1,low,1,low,50.66
+Austria,4,1,1,West,Germanic,5.0 - 5.5,2,high,2,high,78.56
+Belarus,2,2,3,East,Slavic,3.8 - 4.3,1,low,1,low,60.03
+Belgium,4,3,2,West,Romantic,4.4 - 4.9,2,high,2,high,74.8
+Bosnia and Herzegovina,3,2,4,South,Slavic,3.2 - 3.7,1,low,1,low,53.22
+Bulgaria,2,2,3,East,Slavic,3.8 - 4.3,1,low,1,low,56.2
+Croatia,3,2,2,South,Slavic,4.4 - 4.9,2,high,1,low,63.75
+Cyprus,3,4,3,South,Other,3.8 - 4.3,1,low,1,low,52.41
+Czech Republic,2,2,3,East,Slavic,3.8 - 4.3,2,high,2,high,75.18
+Denmark,1,1,2,North,Germanic,4.4 - 4.9,2,high,2,high,80.17
+Estonia,1,4,3,North,Other,3.8 - 4.3,2,high,2,high,72.52
+Finland,1,1,2,North,Germanic,4.4 - 4.9,2,high,2,high,75.96
+France,4,3,1,West,Romantic,5.0 - 5.5,2,high,2,high,80.68
+Germany,4,1,1,West,Germanic,5.0 - 5.5,2,high,2,high,73.35
+Greece,3,4,2,South,Other,4.4 - 4.9,1,low,1,low,56.64
+Hungary,2,4,3,East,Other,3.8 - 4.3,1,low,1,low,48.05
+Iceland,1,1,2,North,Germanic,4.4 - 4.9,2,high,2,high,65.61
+Ireland,1,1,2,North,Germanic,4.4 - 4.9,2,high,1,low,52.27
+Italy,3,3,1,South,Romantic,5.0 - 5.5,1,low,2,high,66.95
+Latvia,1,4,3,North,Other,3.8 - 4.3,2,high,1,low,62.14
+Lithuania,1,4,3,North,Other,3.8 - 4.3,2,high,2,high,70.51
+Luxembourg,4,3,2,West,Romantic,4.4 - 4.9,2,high,2,high,72.57
+Macedonia,3,2,4,South,Slavic,3.2 - 3.7,1,low,1,low,56.22
+Malta,3,3,2,South,Romantic,4.4 - 4.9,1,low,2,high,67.12
+Moldova,2,3,4,East,Romantic,3.2 - 3.7,1,low,1,low,50.67
+Montenegro,3,2,3,South,Slavic,3.8 - 4.3,1,low,1,low,41.53
+Netherlands,4,1,2,West,Germanic,4.4 - 4.9,2,high,2,high,75.68
+Norway,1,1,2,North,Germanic,4.4 - 4.9,2,high,2,high,74.51
+Poland,2,2,3,East,Slavic,3.8 - 4.3,1,low,1,low,51.96
+Portugal,3,3,2,South,Romantic,4.4 - 4.9,2,high,2,high,71.88
+Romania,2,3,3,East,Romantic,3.8 - 4.3,1,low,1,low,55.46
+Russia,2,2,3,East,Slavic,3.8 - 4.3,1,low,1,low,58.01
+Serbia,3,2,4,South,Slavic,3.2 - 3.7,1,low,1,low,51.74
+Slovakia,2,2,3,East,Slavic,3.8 - 4.3,2,high,1,low,60.23
+Slovenia,3,2,3,South,Slavic,3.8 - 4.3,2,high,2,high,65.16
+Spain,3,3,1,South,Romantic,5.0 - 5.5,2,high,2,high,78.69
+Sweden,1,1,2,North,Germanic,4.4 - 4.9,2,high,2,high,69.15
+Switzerland,4,3,1,West,Romantic,5.0 - 5.5,2,high,2,high,73.1
+Ukraine,2,2,4,East,Slavic,3.2 - 3.7,1,low,1,low,52.69
+United Kingdom,1,1,1,North,Germanic,5.0 - 5.5,2,high,2,high,74.88
